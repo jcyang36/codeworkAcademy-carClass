@@ -2,7 +2,10 @@ package cars;
 
 public class Vehicle {
 
+	
 	public String carType;
+	public String color;
+	public String brand;
 	
 	public String start() {
 		return "The"+carType+" is starting...";
@@ -23,5 +26,11 @@ public class Vehicle {
 	
 	public String setSpeed(int speed){
 		return "The speed is "+speed+" mph.";
+	}
+	public void setColor(String color){
+		this.color=color;
+	}
+	public void setBrand(String brand){
+		this.brand=brand;
 	}
 }

@@ -6,8 +6,10 @@ public class CarApp {
 
 		
 		//Car c = new Car();
-		Jetta j = new Jetta();
-		Porsche p = new Porsche();
+		Car p = new Car();
+				p.carType=" Red Porsche ";
+		Car j = new Car();
+				j.carType=" Blue Jetta ";
 		print(p.start());
 		print(j.start());
 		print(p.accelerate());
