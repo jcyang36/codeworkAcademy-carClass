@@ -1,0 +1,1 @@
+This program creates cars and allows them to have methods such as start, setSpeed, and stop.
